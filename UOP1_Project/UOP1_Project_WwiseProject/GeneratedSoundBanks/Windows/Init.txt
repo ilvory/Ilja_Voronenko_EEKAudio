@@ -1,0 +1,56 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	547160665	Surface_Grass	Footsteps			
+	1810448540	Surface_Stone	Footsteps			
+	1897702823	Surface_Sand	Footsteps			
+	3248230778	Surface_Water	Footsteps			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1697398818	CaveReverb			\Default Work Unit\CaveReverb	
+	2213237662	Underwater			\Default Work Unit\Underwater	
+	3092587493	Pause			\Music\Pause	
+	3991942870	Music			\Music\Music	
+
+State	ID	Name	State Group			Notes
+	717767040	CaveReverb_Enabled	CaveReverb			
+	748895195	None	CaveReverb			
+	2218728873	CaveReverb_Disabled	CaveReverb			
+	748895195	None	Underwater			
+	2294733406	Underwater_On	Underwater			
+	2802431236	Underwater_Off	Underwater			
+	748895195	None	Pause			
+	3537680115	Pause_On	Pause			
+	3967028551	Pause_Off	Pause			
+	430932854	Mus_Beach	Music			
+	748895195	None	Music			
+	1874745927	Mus_MainMenu	Music			
+	3954391251	Mus_Field_Hill	Music			
+	4139276889	Mus_Field_Farms	Music			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	49748542	Underwater_On	Underwater	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX		
+	902105772	Pause_On	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	988953028	SFXVolume			\Default Work Unit\Mix\SFXVolume	
+	2346531308	MusicVolume			\Default Work Unit\Mix\MusicVolume	
+	2918011349	MasterVolume			\Default Work Unit\Mix\MasterVolume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	77978275	Ambient			\Default Work Unit\Master Audio Bus\SFX\Ambient	
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\SFX\Reverb	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\SFX\Player	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\SFX\UI	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2513915904	Hall_Large	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

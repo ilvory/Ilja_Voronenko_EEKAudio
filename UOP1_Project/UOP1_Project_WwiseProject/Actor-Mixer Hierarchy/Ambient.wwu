@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3D8A2245-81BF-40B6-9663-974B7366D686}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Ambient" ID="{3D8A2245-81BF-40B6-9663-974B7366D686}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="18"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="2D Ambient" ID="{B8FB69F2-5AF8-4288-B74B-9080E5655A28}" ShortID="383284044">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambient" ID="{0C09E3B2-718B-4EF6-9D7A-EC1D16AEF70A}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="amb_beach" ID="{E3C80F14-821B-4DD3-B9C2-BB974BDB6F68}" ShortID="467298872">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_beach" ID="{3D14B8E5-E40A-4368-A9CB-026D5C2C992E}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient\amb_beach.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="171170101"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_beach" ID="{3D14B8E5-E40A-4368-A9CB-026D5C2C992E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_field_farms" ID="{4B2D8B27-8216-4E38-AE94-67454CFA3D86}" ShortID="928276851">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_field_farms" ID="{DED5D43C-FA04-4F30-8A0E-42555D5AEAF7}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient\amb_field_farms.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="66371575"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_field_farms" ID="{DED5D43C-FA04-4F30-8A0E-42555D5AEAF7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_feild_hills" ID="{6A416E7A-2151-420F-8CE1-8AC089C334E3}" ShortID="29036783">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_feild_hills" ID="{85AADC55-349A-4003-965E-DE1398034862}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient\amb_feild_hills.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="386201823"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_feild_hills" ID="{85AADC55-349A-4003-965E-DE1398034862}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="3D Ambient" ID="{56E65A6F-A109-4E65-B5A9-5C042F4B12C3}" ShortID="1040523264">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="objects" ID="{3F23E505-5DEC-48B2-B9C8-0B3A561D5AB9}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{CBC4994D-D65C-452D-9FE2-14A4E2DAA56F}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Torch" ID="{AC8A4EB0-7802-4DEE-8722-60FD47162ECB}" ShortID="442524245">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Reverb" ID="{008C2DD4-324F-4EEC-BFEE-0238EE21FECE}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_torch" ID="{9972707C-A4C9-49FB-86C4-D1DCC65A369D}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.465183791095689"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Ambient\amb_torch.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="170412802"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_torch" ID="{9972707C-A4C9-49FB-86C4-D1DCC65A369D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_trees" ID="{9A7A83E7-1E29-4A43-9FC3-9CB376B87E39}" ShortID="318079947">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambient" ID="{0C09E3B2-718B-4EF6-9D7A-EC1D16AEF70A}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_trees" ID="{D0A1ADF1-60F6-4CAE-B0E6-118ED4564286}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient\amb_trees.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="762105881"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_trees" ID="{D0A1ADF1-60F6-4CAE-B0E6-118ED4564286}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_cave" ID="{753B9D16-EE48-4F92-9ACB-7748C1B9A46F}" ShortID="430575696">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambient" ID="{0C09E3B2-718B-4EF6-9D7A-EC1D16AEF70A}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_cave" ID="{EE9F2DF7-CE52-45BA-B6BC-FC71FBAC0DFF}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient\amb_cave.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="481717224"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_cave" ID="{EE9F2DF7-CE52-45BA-B6BC-FC71FBAC0DFF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_fire" ID="{1C86C8F7-0D2D-439A-B0D8-FAC44F63D6DA}" ShortID="648901103">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambient" ID="{0C09E3B2-718B-4EF6-9D7A-EC1D16AEF70A}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_fire" ID="{221DB01F-B927-4020-93E6-76F917AB8059}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient\amb_fire.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="949075928"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_fire" ID="{221DB01F-B927-4020-93E6-76F917AB8059}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Ocean laps" ID="{61A61D39-6CB2-4607-B16E-56D97B16CBF4}" ShortID="1071381058">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="amb_ocean" ID="{FCDFD05D-DE3C-4259-9AE1-CFCCAE5F7B5D}" ShortID="18620425">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="objects" ID="{3F23E505-5DEC-48B2-B9C8-0B3A561D5AB9}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{CBC4994D-D65C-452D-9FE2-14A4E2DAA56F}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="amb_ocean" ID="{A52C55B0-E82C-452B-9879-8CF3471848D5}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient\amb_ocean.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="75400074"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="amb_ocean" ID="{A52C55B0-E82C-452B-9879-8CF3471848D5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

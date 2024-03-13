@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6D05B601-F76E-4F0D-B3B6-04A8A57EBE24}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="NPC" ID="{6D05B601-F76E-4F0D-B3B6-04A8A57EBE24}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="14"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Hare" ID="{487885C4-3E03-45F5-A276-F44EDD526831}" ShortID="1040482233">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{CBC4994D-D65C-452D-9FE2-14A4E2DAA56F}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Hare Song" ID="{78E60E89-549B-4886-BD5F-3DECF8C019E2}" ShortID="11571741">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="objects" ID="{3F23E505-5DEC-48B2-B9C8-0B3A561D5AB9}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Hare_Song_Long_1" ID="{6335E4C3-2DDB-4164-BB8A-6A428D0517B2}" ShortID="451017040">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="objects" ID="{3F23E505-5DEC-48B2-B9C8-0B3A561D5AB9}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hare_Song_Long_1" ID="{E10450F2-5752-483F-83A3-5E3DC828894C}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.177678265550825"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>NPC\Hare\Hare_Song_Long_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="365222518"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hare_Song_Long_1" ID="{E10450F2-5752-483F-83A3-5E3DC828894C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hare_Song_Long_2" ID="{B70B6F20-E171-44F2-A9F3-F727D324E15D}" ShortID="222031485">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="objects" ID="{3F23E505-5DEC-48B2-B9C8-0B3A561D5AB9}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hare_Song_Long_2" ID="{955EE0A3-5A73-4C40-9426-D7AE45839A9C}">
+											<Language>SFX</Language>
+											<AudioFile>NPC\Hare\Hare_Song_Long_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="833775298"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hare_Song_Long_2" ID="{955EE0A3-5A73-4C40-9426-D7AE45839A9C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hare_Song_Long_3" ID="{97401826-F728-4F7A-9333-5EFF6DEE90B2}" ShortID="920224281">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="objects" ID="{3F23E505-5DEC-48B2-B9C8-0B3A561D5AB9}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hare_Song_Long_3" ID="{BBFBF051-FC0C-4B95-84FA-3E4CE7BFC548}">
+											<Language>SFX</Language>
+											<AudioFile>NPC\Hare\Hare_Song_Long_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="861567176"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hare_Song_Long_3" ID="{BBFBF051-FC0C-4B95-84FA-3E4CE7BFC548}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hare_Song_Long_4" ID="{B1EB6FE9-7473-4B44-8BF8-2D6EE48676C6}" ShortID="188032309">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="objects" ID="{3F23E505-5DEC-48B2-B9C8-0B3A561D5AB9}" WorkUnitID="{D4CB0829-2007-4BF7-A82E-28F1F5051B0A}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hare_Song_Long_4" ID="{6FE11003-58A9-4D06-9232-90116A641863}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>NPC\Hare\Hare_Song_Long_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="195868259"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hare_Song_Long_4" ID="{6FE11003-58A9-4D06-9232-90116A641863}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Silence" ID="{FFFFC40A-C701-498B-8953-253594FA3969}" ShortID="840140357">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Wwise Silence" ID="{7B8E12B1-FC07-4774-94BD-75BC0CBB5CD2}" ShortID="238013044" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+											<PropertyList>
+												<Property Name="Length" Type="Real32" Value="0.5"/>
+											</PropertyList>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Wwise Silence" ID="{7B8E12B1-FC07-4774-94BD-75BC0CBB5CD2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+							<Playlist>
+								<ItemRef Name="Hare_Song_Long_1" ID="{6335E4C3-2DDB-4164-BB8A-6A428D0517B2}"/>
+								<ItemRef Name="Hare_Song_Long_2" ID="{B70B6F20-E171-44F2-A9F3-F727D324E15D}"/>
+								<ItemRef Name="Hare_Song_Long_3" ID="{97401826-F728-4F7A-9333-5EFF6DEE90B2}"/>
+								<ItemRef Name="Hare_Song_Long_4" ID="{B1EB6FE9-7473-4B44-8BF8-2D6EE48676C6}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Hare talk" ID="{1CF7F4C2-0BB0-4ADC-BF5E-8AB20195230D}" ShortID="959025069">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Hare_Talk2" ID="{051B41A4-CE10-4D86-B916-8C6994E0FE40}" ShortID="490554714">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hare_Talk2" ID="{883CBAA9-A3F7-456C-A813-45D4A4C53A90}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.383414052431524"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.08307473205109"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>NPC\Hare\Hare_Talk2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="678425717"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hare_Talk2" ID="{883CBAA9-A3F7-456C-A813-45D4A4C53A90}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hare_Talk" ID="{B98841DD-8C60-469F-AA60-FD4D1035B69F}" ShortID="369563638">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hare_Talk" ID="{01353DA6-600E-44C2-A475-A1E859AAADCE}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.387465244131225"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.36948922494657"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>NPC\Hare\Hare_Talk.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="206081967"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hare_Talk" ID="{01353DA6-600E-44C2-A475-A1E859AAADCE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="OtherNPC" ID="{62701402-B509-4DF4-83C2-E1EF708E62A2}" ShortID="1051420371">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Female_Talk" ID="{3F83DF8C-EAB8-4096-BFBD-72962065375B}" ShortID="918773916">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Female_Talk" ID="{CD09F178-F495-41A7-9222-6F80D1DBC8E8}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.180807810894142"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.02170762981452"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>NPC\Others\Female_Talk.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="661106685"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Female_Talk" ID="{CD09F178-F495-41A7-9222-6F80D1DBC8E8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Male_Talk" ID="{AB7358BA-BCA3-480A-B831-B07E40121D37}" ShortID="548636836">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Male_Talk" ID="{E48703BD-53C4-4B66-A484-0050A9112DAE}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.428211879476011"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.04911910471623"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>NPC\Others\Male_Talk.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="826850264"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Male_Talk" ID="{E48703BD-53C4-4B66-A484-0050A9112DAE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

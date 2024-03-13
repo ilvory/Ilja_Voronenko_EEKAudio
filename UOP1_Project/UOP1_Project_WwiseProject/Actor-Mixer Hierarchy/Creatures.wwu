@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0F6A82EC-4D9E-4550-ACD2-3C2037EC3A7E}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Creatures" ID="{0F6A82EC-4D9E-4550-ACD2-3C2037EC3A7E}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="23"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Plant Monster" ID="{83344841-8361-40D8-90EB-A8C13EFB07AF}" ShortID="996900251">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Critter_Plant_Attack" ID="{7466C5B3-8461-4105-999A-45992BC1BCA7}" ShortID="7433104">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>150</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Plant_Attack" ID="{C3E34509-C9D3-4F62-A0D8-99494ECD26EE}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0980508980570646"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.0399337672719"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Monsters\Critter_Plant_Attack.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="114488865"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Plant_Attack" ID="{C3E34509-C9D3-4F62-A0D8-99494ECD26EE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Plant_Death" ID="{F1BF1028-807C-466B-BD33-A0B82A72A24F}" ShortID="307603159">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>180</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Plant_Death" ID="{B6AD062D-5A13-4BF3-A5C9-F0CA874E94CA}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.135517577774515"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.32542801677026"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Monsters\Critter_Plant_Death.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="109010644"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Plant_Death" ID="{B6AD062D-5A13-4BF3-A5C9-F0CA874E94CA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Plant_GettingHit" ID="{8E059139-591E-4F1D-B7DB-B9243E4B2C3A}" ShortID="158702832">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-80</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Plant_GettingHit" ID="{44E1A7D5-B511-436D-B43C-A6CE9645DA4B}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.3650095433857"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Monsters\Critter_Plant_GettingHit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="845283789"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Plant_GettingHit" ID="{44E1A7D5-B511-436D-B43C-A6CE9645DA4B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Plant_Idle" ID="{4CAC73B0-56AB-43DC-B758-51A9F1F64606}" ShortID="388299622">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Plant_Idle" ID="{6D88613B-835B-43BB-AF1C-042E9C6DDF59}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.243453237410072"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.84287769784173"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Monsters\Critter_Plant_Idle.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="282874757"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Plant_Idle" ID="{6D88613B-835B-43BB-AF1C-042E9C6DDF59}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

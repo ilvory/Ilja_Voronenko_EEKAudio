@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Unity\\UOP1_Project\\UOP1_Project_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Unity\\UOP1_Project\\UOP1_Project_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Unity\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Unity\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2249769530",
+    "GUID": "{E8F87A18-5BAC-4B7D-B055-F2CCD949798C}",
+    "Language": "SFX",
+    "Hash": "2987799181",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI_Click",
+    "ShortName": "UI_Click",
+    "Path": "UI_Click.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1749424733",
+      "Name": "Play_UI_Click",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Click",
+      "GUID": "{9B5252CD-81B7-4C4B-9059-A8720A3895F5}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.585914",
+      "DurationMax": "0.585914",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "699738634",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Click.wav",
+        "Path": "SFX\\UI\\UI_Click_D3404A91.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

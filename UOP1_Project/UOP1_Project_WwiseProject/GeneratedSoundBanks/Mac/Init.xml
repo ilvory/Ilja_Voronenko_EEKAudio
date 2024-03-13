@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1651596270">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<StateGroups>
+				<StateGroup Id="3092587493" Name="Pause" ObjectPath="\States\Music\Pause" GUID="{5D3C779C-8130-47C3-BFED-1E0641098106}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Music\Pause\None" GUID="{F12F1341-B1A1-414E-90DF-4D572B9DB180}"/>
+						<State Id="3537680115" Name="Pause_On" ObjectPath="\States\Music\Pause\Pause_On" GUID="{66FAFFE6-0D55-4278-8DCA-0354883339FD}"/>
+						<State Id="3967028551" Name="Pause_Off" ObjectPath="\States\Music\Pause\Pause_Off" GUID="{0725D63E-5068-4B78-9CBA-8997F1D1349F}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

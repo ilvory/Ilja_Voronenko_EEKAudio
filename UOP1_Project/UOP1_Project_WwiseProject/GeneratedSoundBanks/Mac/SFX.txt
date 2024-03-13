@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	592624029	UI_Shuffle			\Default Work Unit\UI\UI_Shuffle	
+	2249769530	UI_Click			\Default Work Unit\UI\UI_Click	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	699738634	UI_Click	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\UI\UI_Click_1FB2DEFA.wem		\Actor-Mixer Hierarchy\UI\UI\UI_Click		40538
+	845204464	UI_Shuffle	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\UI\UI_Shuffle_75AF8CD4.wem		\Actor-Mixer Hierarchy\UI\UI\UI_Shuffle		36702
+

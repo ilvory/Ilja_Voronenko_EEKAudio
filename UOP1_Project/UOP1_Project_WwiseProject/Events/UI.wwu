@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1FA34FF6-CD0F-4DC6-AB38-28DD77A78564}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="UI" ID="{1FA34FF6-CD0F-4DC6-AB38-28DD77A78564}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="21"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="UI_Click" ID="{EF644063-BC1F-4F6C-8E0E-382898BBE9E6}">
+					<ChildrenList>
+						<Action Name="" ID="{D4FE99CB-7AE8-49A8-98FE-7F614467CA62}" ShortID="407617920">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Click" ID="{477CF31C-4260-4ECA-8DBF-D19B7654C6D5}" WorkUnitID="{41E71C8A-D85F-457C-8EC2-621F931BCDE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Shuffle" ID="{AA5E6F68-733D-4D78-B7C6-1185793B186C}">
+					<ChildrenList>
+						<Action Name="" ID="{B77B58C1-0DAE-4C62-84EA-50252588DC94}" ShortID="528310883">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Shuffle" ID="{D27A49C6-5890-4DCD-AFED-924AC8351BC2}" WorkUnitID="{41E71C8A-D85F-457C-8EC2-621F931BCDE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Use" ID="{9522EB43-A22F-4A3B-9511-FF994FAFBB20}">
+					<ChildrenList>
+						<Action Name="" ID="{F30EA0FE-CAD5-4981-916F-66B9DC0FFECE}" ShortID="726425506">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Use" ID="{8572E8D9-3391-4827-BFDA-5E5EACA97461}" WorkUnitID="{41E71C8A-D85F-457C-8EC2-621F931BCDE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_AddToInventory" ID="{26ECC4EC-20AE-4716-B317-71FEA4A494CB}">
+					<ChildrenList>
+						<Action Name="" ID="{FA2AD4EB-488A-4001-814C-8E0B508A67BA}" ShortID="865746040">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_AddToInventory" ID="{24212838-6C9D-4BE9-A2D3-E1E604C810C7}" WorkUnitID="{41E71C8A-D85F-457C-8EC2-621F931BCDE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

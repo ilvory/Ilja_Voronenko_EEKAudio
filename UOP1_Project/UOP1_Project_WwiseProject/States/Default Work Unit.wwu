@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5390DFB1-2588-49D9-92B1-0500AE6D6911}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{5390DFB1-2588-49D9-92B1-0500AE6D6911}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="CaveReverb" ID="{62F7C846-EA92-462C-9F4E-7B3474524FDE}">
+					<ChildrenList>
+						<State Name="None" ID="{9BE472C1-7012-44DA-9381-6EF282B2097B}"/>
+						<State Name="CaveReverb_Enabled" ID="{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"/>
+						<State Name="CaveReverb_Disabled" ID="{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Underwater" ID="{7DF40916-DB31-49EB-9CC6-9111B5E63CDB}">
+					<ChildrenList>
+						<State Name="None" ID="{2F62FFBE-041F-46B7-A3B3-6D71D71394AC}"/>
+						<State Name="Underwater_On" ID="{E9A98091-AD09-4850-9FF8-D7E9581A37DC}"/>
+						<State Name="Underwater_Off" ID="{4808DC17-9C21-4882-B563-7C275850E059}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

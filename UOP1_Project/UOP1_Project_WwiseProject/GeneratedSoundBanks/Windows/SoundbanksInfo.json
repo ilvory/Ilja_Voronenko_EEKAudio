@@ -1,0 +1,963 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Unity\\UOP1_Project\\UOP1_Project_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Unity\\UOP1_Project\\UOP1_Project_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Unity\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Unity\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "DialogueEvents": [],
+  "StreamedFiles": [],
+  "MediaFilesNotInAnyBank": [],
+  "SoundBanks": [
+   {
+    "Id": "393239870",
+    "GUID": "{46CFE9CD-25EC-4858-8B22-82E6DDB661A7}",
+    "Language": "SFX",
+    "Hash": "3098961140",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
+    "ShortName": "SFX",
+    "Path": "SFX.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "859052727",
+      "Name": "Amb_Beach",
+      "ObjectPath": "\\Events\\Ambient\\Amb_Beach",
+      "GUID": "{72B557D4-F1A1-4D84-AA5C-8499525BAC14}",
+      "DurationType": "OneShot",
+      "DurationMin": "87.",
+      "DurationMax": "87.",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "171170101",
+        "Language": "SFX",
+        "ShortName": "Ambient\\amb_beach.wav",
+        "Path": "SFX\\Ambient\\amb_beach_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3755979049",
+      "Name": "Amb_Cave",
+      "ObjectPath": "\\Events\\Ambient\\Amb_Cave",
+      "GUID": "{E43218AB-091D-451F-A45C-CEDC30C419EF}",
+      "MaxAttenuation": "20.",
+      "DurationType": "OneShot",
+      "DurationMin": "120.5",
+      "DurationMax": "120.5",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "481717224",
+        "Language": "SFX",
+        "ShortName": "Ambient\\amb_cave.wav",
+        "Path": "SFX\\Ambient\\amb_cave_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "728646680",
+      "Name": "Amb_Field_Farms",
+      "ObjectPath": "\\Events\\Ambient\\Amb_Field_Farms",
+      "GUID": "{B939D70A-3DEB-4733-9CE5-ADAF5532537B}",
+      "DurationType": "OneShot",
+      "DurationMin": "55.",
+      "DurationMax": "55.",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "66371575",
+        "Language": "SFX",
+        "ShortName": "Ambient\\amb_field_farms.wav",
+        "Path": "SFX\\Ambient\\amb_field_farms_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1997053204",
+      "Name": "Amb_Field_Hill",
+      "ObjectPath": "\\Events\\Ambient\\Amb_Field_Hill",
+      "GUID": "{9A5997A4-4B82-43E5-AD91-5546D6558C42}",
+      "DurationType": "OneShot",
+      "DurationMin": "149.371628",
+      "DurationMax": "149.371628",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "386201823",
+        "Language": "SFX",
+        "ShortName": "Ambient\\amb_feild_hills.wav",
+        "Path": "SFX\\Ambient\\amb_feild_hills_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3207324726",
+      "Name": "Amb_Fire",
+      "ObjectPath": "\\Events\\Ambient\\Amb_Fire",
+      "GUID": "{16C1FEC6-F157-4D84-B812-A48357B8E417}",
+      "MaxAttenuation": "20.",
+      "DurationType": "OneShot",
+      "DurationMin": "39.",
+      "DurationMax": "39.",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "949075928",
+        "Language": "SFX",
+        "ShortName": "Ambient\\amb_fire.wav",
+        "Path": "SFX\\Ambient\\amb_fire_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3635877684",
+      "Name": "Amb_Ocean",
+      "ObjectPath": "\\Events\\Ambient\\Amb_Ocean",
+      "GUID": "{43E8271A-9FF8-41B1-8D2B-E570A9E06673}",
+      "MaxAttenuation": "20.",
+      "DurationType": "OneShot",
+      "DurationMin": "95.",
+      "DurationMax": "95.",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "75400074",
+        "Language": "SFX",
+        "ShortName": "Ambient\\amb_ocean.wav",
+        "Path": "SFX\\Ambient\\amb_ocean_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2644861617",
+      "Name": "Amb_Trees",
+      "ObjectPath": "\\Events\\Ambient\\Amb_Trees",
+      "GUID": "{BDDEBE60-2F9A-4103-BC63-B379A8FBF6D4}",
+      "MaxAttenuation": "20.",
+      "DurationType": "OneShot",
+      "DurationMin": "65.",
+      "DurationMax": "65.",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "762105881",
+        "Language": "SFX",
+        "ShortName": "Ambient\\amb_trees.wav",
+        "Path": "SFX\\Ambient\\amb_trees_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1879932703",
+      "Name": "CaveReverb_Disable",
+      "ObjectPath": "\\Events\\Ambient\\Reverb\\CaveReverb_Disable",
+      "GUID": "{B1387412-0137-4348-BA74-549A18F48604}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "2218728873",
+        "Name": "CaveReverb_Disabled",
+        "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Disabled",
+        "GUID": "{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}"
+       }
+      ]
+     },
+     {
+      "Id": "1940944140",
+      "Name": "CaveReverb_Enable",
+      "ObjectPath": "\\Events\\Ambient\\Reverb\\CaveReverb_Enable",
+      "GUID": "{ED01CA85-5445-4A10-BA81-E68194E22985}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "717767040",
+        "Name": "CaveReverb_Enabled",
+        "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Enabled",
+        "GUID": "{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"
+       }
+      ]
+     },
+     {
+      "Id": "1969612259",
+      "Name": "Critter_Plant_Attack",
+      "ObjectPath": "\\Events\\Creatures\\Critter_Plant_Attack",
+      "GUID": "{3E363ED4-0EB0-41C8-AF3B-EAE4FD06A1F7}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.86371",
+      "DurationMax": "0.86371",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "114488865",
+        "Language": "SFX",
+        "ShortName": "Monsters\\Critter_Plant_Attack.wav",
+        "Path": "SFX\\Monsters\\Critter_Plant_Attack_68598E18.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2910694179",
+      "Name": "Critter_Plant_Death",
+      "ObjectPath": "\\Events\\Creatures\\Critter_Plant_Death",
+      "GUID": "{0633766A-7B8E-4C17-8BC4-923CD8858F5C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.072407",
+      "DurationMax": "1.072407",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "109010644",
+        "Language": "SFX",
+        "ShortName": "Monsters\\Critter_Plant_Death.wav",
+        "Path": "SFX\\Monsters\\Critter_Plant_Death_967631A0.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1822764980",
+      "Name": "Critter_Plant_GettingHit",
+      "ObjectPath": "\\Events\\Creatures\\Critter_Plant_GettingHit",
+      "GUID": "{312D0F0F-7194-44FF-967E-C248A823C5E9}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.382272",
+      "DurationMax": "0.382272",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "845283789",
+        "Language": "SFX",
+        "ShortName": "Monsters\\Critter_Plant_GettingHit.wav",
+        "Path": "SFX\\Monsters\\Critter_Plant_GettingHit_99AC4D65.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2891098061",
+      "Name": "Critter_Plant_Idle",
+      "ObjectPath": "\\Events\\Creatures\\Critter_Plant_Idle",
+      "GUID": "{F12A1607-B40A-48C1-B6F0-82AD6A568D75}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.599424",
+      "DurationMax": "5.599424",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "282874757",
+        "Language": "SFX",
+        "ShortName": "Monsters\\Critter_Plant_Idle.wav",
+        "Path": "SFX\\Monsters\\Critter_Plant_Idle_7FC5E38F.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3050945240",
+      "Name": "New_Event",
+      "ObjectPath": "\\Events\\Player\\New_Event",
+      "GUID": "{736EF9F5-0A5A-4A17-9046-40D37DC57EA1}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "1717767246",
+      "Name": "NPC_Hare_Song_Long",
+      "ObjectPath": "\\Events\\NPC\\NPC_Hare_Song_Long",
+      "GUID": "{363F99B4-0D64-485A-91A4-A72C63EB3F01}",
+      "MaxAttenuation": "20.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "195868259",
+        "Language": "SFX",
+        "ShortName": "NPC\\Hare\\Hare_Song_Long_4.wav",
+        "Path": "SFX\\NPC\\Hare\\Hare_Song_Long_4_10C4C929.wem"
+       },
+       {
+        "Id": "365222518",
+        "Language": "SFX",
+        "ShortName": "NPC\\Hare\\Hare_Song_Long_1.wav",
+        "Path": "SFX\\NPC\\Hare\\Hare_Song_Long_1_34F13A34.wem"
+       },
+       {
+        "Id": "833775298",
+        "Language": "SFX",
+        "ShortName": "NPC\\Hare\\Hare_Song_Long_2.wav",
+        "Path": "SFX\\NPC\\Hare\\Hare_Song_Long_2_10C4C929.wem"
+       },
+       {
+        "Id": "861567176",
+        "Language": "SFX",
+        "ShortName": "NPC\\Hare\\Hare_Song_Long_3.wav",
+        "Path": "SFX\\NPC\\Hare\\Hare_Song_Long_3_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1419286180",
+      "Name": "NPC_Hare_Talk",
+      "ObjectPath": "\\Events\\NPC\\NPC_Hare_Talk",
+      "GUID": "{9A5D6ABE-1784-4657-A209-AEF23199231B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.699661",
+      "DurationMax": "0.982024",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "206081967",
+        "Language": "SFX",
+        "ShortName": "NPC\\Hare\\Hare_Talk.wav",
+        "Path": "SFX\\NPC\\Hare\\Hare_Talk_806EEA5B.wem"
+       },
+       {
+        "Id": "678425717",
+        "Language": "SFX",
+        "ShortName": "NPC\\Hare\\Hare_Talk2.wav",
+        "Path": "SFX\\NPC\\Hare\\Hare_Talk2_9705CEFB.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2025845440",
+      "Name": "Play_Torch",
+      "ObjectPath": "\\Events\\Ambient\\Play_Torch",
+      "GUID": "{F9B4BF9E-2B16-4E70-B552-0461DBB0350D}",
+      "MaxAttenuation": "20.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "170412802",
+        "Language": "SFX",
+        "ShortName": "Ambient\\amb_torch.wav",
+        "Path": "SFX\\Ambient\\amb_torch_637EED9F.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2824512041",
+      "Name": "Player_Attack",
+      "ObjectPath": "\\Events\\Player\\Player_Attack",
+      "GUID": "{2F758961-1E30-43FA-B5E9-859BC5C24D1C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.365605",
+      "DurationMax": "0.425044",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "416521536",
+        "Language": "SFX",
+        "ShortName": "Player\\Player_Attack\\Player_Attack2.wav",
+        "Path": "SFX\\Player\\Player_Attack\\Player_Attack2_59B0B4BB.wem"
+       },
+       {
+        "Id": "677021679",
+        "Language": "SFX",
+        "ShortName": "Player\\Player_Attack\\Player_Attack1.wav",
+        "Path": "SFX\\Player\\Player_Attack\\Player_Attack1_11EA8FF5.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1542330065",
+      "Name": "Player_Die",
+      "ObjectPath": "\\Events\\Player\\Player_Die",
+      "GUID": "{46B40845-CA86-4ECE-8D68-58F86AF19A89}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.824422",
+      "DurationMax": "1.038707",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "346616806",
+        "Language": "SFX",
+        "ShortName": "Player\\Player_Die.wav",
+        "Path": "SFX\\Player\\Player_Die_629C049C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1730208058",
+      "Name": "Player_Footsteps",
+      "ObjectPath": "\\Events\\Player\\Player_Footsteps",
+      "GUID": "{C3E3FEB0-6026-4E5E-AAAF-967EBC1A6442}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.191524",
+      "DurationMax": "0.618261",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "71035135",
+        "Language": "SFX",
+        "ShortName": "Surface_Water3.wav",
+        "Path": "SFX\\Surface_Water3_18FEFD43.wem"
+       },
+       {
+        "Id": "200470266",
+        "Language": "SFX",
+        "ShortName": "Surface_Water1.wav",
+        "Path": "SFX\\Surface_Water1_90CD2DEB.wem"
+       },
+       {
+        "Id": "201511804",
+        "Language": "SFX",
+        "ShortName": "Surface_Grass2.wav",
+        "Path": "SFX\\Surface_Grass2_1ACE00DA.wem"
+       },
+       {
+        "Id": "300382764",
+        "Language": "SFX",
+        "ShortName": "Surface_Rocks1.wav",
+        "Path": "SFX\\Surface_Rocks1_5A736827.wem"
+       },
+       {
+        "Id": "328554108",
+        "Language": "SFX",
+        "ShortName": "Surface_Sand2.wav",
+        "Path": "SFX\\Surface_Sand2_DBE320F0.wem"
+       },
+       {
+        "Id": "355271436",
+        "Language": "SFX",
+        "ShortName": "Surface_Rocks2.wav",
+        "Path": "SFX\\Surface_Rocks2_5B6509B5.wem"
+       },
+       {
+        "Id": "481293795",
+        "Language": "SFX",
+        "ShortName": "Surface_Water2.wav",
+        "Path": "SFX\\Surface_Water2_F79E2C53.wem"
+       },
+       {
+        "Id": "539512773",
+        "Language": "SFX",
+        "ShortName": "Surface_Sand1.wav",
+        "Path": "SFX\\Surface_Sand1_A9454982.wem"
+       },
+       {
+        "Id": "586604199",
+        "Language": "SFX",
+        "ShortName": "Surface_Grass3.wav",
+        "Path": "SFX\\Surface_Grass3_FC2F2D3C.wem"
+       },
+       {
+        "Id": "894451964",
+        "Language": "SFX",
+        "ShortName": "Surface_Rocks3.wav",
+        "Path": "SFX\\Surface_Rocks3_085AE05F.wem"
+       },
+       {
+        "Id": "929474808",
+        "Language": "SFX",
+        "ShortName": "Surface_Sand3.wav",
+        "Path": "SFX\\Surface_Sand3_57937917.wem"
+       },
+       {
+        "Id": "1035565226",
+        "Language": "SFX",
+        "ShortName": "Surface_Grass1.wav",
+        "Path": "SFX\\Surface_Grass1_FBBC7BFE.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{31DAFF58-1407-4AF1-B1CF-CE9F1B643928}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{4F711452-7034-44E5-9552-8CE1E40998FD}",
+        "Media": [
+         {
+          "Id": "201511804"
+         },
+         {
+          "Id": "586604199"
+         },
+         {
+          "Id": "1035565226"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{31DAFF58-1407-4AF1-B1CF-CE9F1B643928}",
+        "Media": [
+         {
+          "Id": "328554108"
+         },
+         {
+          "Id": "539512773"
+         },
+         {
+          "Id": "929474808"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{9CF1C05A-B992-4E89-98DE-CF8C158624E1}",
+        "Media": [
+         {
+          "Id": "71035135"
+         },
+         {
+          "Id": "200470266"
+         },
+         {
+          "Id": "481293795"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{988762A6-8339-406C-8825-47100B7DC40C}",
+        "Media": [
+         {
+          "Id": "300382764"
+         },
+         {
+          "Id": "355271436"
+         },
+         {
+          "Id": "894451964"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "3945457670",
+      "Name": "Player_GetHit",
+      "ObjectPath": "\\Events\\Player\\Player_GetHit",
+      "GUID": "{EB0D6BA5-ADF2-4BCD-923F-E763A93FD1DA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.305187",
+      "DurationMax": "0.640724",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "549358111",
+        "Language": "SFX",
+        "ShortName": "Player\\Player_GetHit\\Player_GetHit2.wav",
+        "Path": "SFX\\Player\\Player_GetHit\\Player_GetHit2_9602670A.wem"
+       },
+       {
+        "Id": "946957299",
+        "Language": "SFX",
+        "ShortName": "Player\\Player_GetHit\\Player_GetHit1.wav",
+        "Path": "SFX\\Player\\Player_GetHit\\Player_GetHit1_D690165E.wem"
+       }
+      ]
+     },
+     {
+      "Id": "816303795",
+      "Name": "Player_Grab",
+      "ObjectPath": "\\Events\\Player\\Player_Grab",
+      "GUID": "{70847B60-8E2F-47A9-B48B-7D90471584E6}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.149489",
+      "DurationMax": "0.149489",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "886715503",
+        "Language": "SFX",
+        "ShortName": "Player\\Player_Grab.wav",
+        "Path": "SFX\\Player\\Player_Grab_5E84716F.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3484321931",
+      "Name": "Player_Heartbeat",
+      "ObjectPath": "\\Events\\Player\\Player_Heartbeat",
+      "GUID": "{924189F3-A44B-4E99-8BAF-48058DA82067}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "798924486",
+        "Language": "SFX",
+        "ShortName": "Player\\Player_Heartbeat.wav",
+        "Path": "SFX\\Player\\Player_Heartbeat_DD96FBC7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3856109001",
+      "Name": "Player_Jump_Landing",
+      "ObjectPath": "\\Events\\Player\\Player_Jump_Landing",
+      "GUID": "{DB001560-3C8F-491A-B861-BA5131F62CC4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.190619",
+      "DurationMax": "0.190619",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "556581190",
+        "Language": "SFX",
+        "ShortName": "Player\\Player_Jump_Landing.wav",
+        "Path": "SFX\\Player\\Player_Jump_Landing_4A58AB64.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1363577934",
+      "Name": "Player_Jump_LiftOff",
+      "ObjectPath": "\\Events\\Player\\Player_Jump_LiftOff",
+      "GUID": "{8B3EBF91-10DB-49CB-8A7B-BB8CA84EAD0A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.179051",
+      "DurationMax": "0.284226",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "160736075",
+        "Language": "SFX",
+        "ShortName": "Player\\Player_Jump_LiftOff.wav",
+        "Path": "SFX\\Player\\Player_Jump_LiftOff_5FA59ACE.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2675089675",
+      "Name": "Player_Talk",
+      "ObjectPath": "\\Events\\Player\\Player_Talk",
+      "GUID": "{BA9D1C96-741E-4FD8-AB4A-C4F3B7F29854}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.790866",
+      "DurationMax": "6.036113",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "619917798",
+        "Language": "SFX",
+        "ShortName": "Player\\Player_Talk\\Player_Talk2.wav",
+        "Path": "SFX\\Player\\Player_Talk\\Player_Talk2_07089254.wem"
+       },
+       {
+        "Id": "766390857",
+        "Language": "SFX",
+        "ShortName": "Player\\Player_Talk\\Player_Talk1.wav",
+        "Path": "SFX\\Player\\Player_Talk\\Player_Talk1_DC0F7735.wem"
+       },
+       {
+        "Id": "795462729",
+        "Language": "SFX",
+        "ShortName": "Player\\Player_Talk\\Player_Talk3.wav",
+        "Path": "SFX\\Player\\Player_Talk\\Player_Talk3_4CEC12FC.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2971175702",
+      "Name": "Townsfolk_Female_Talk",
+      "ObjectPath": "\\Events\\NPC\\Townsfolk_Female_Talk",
+      "GUID": "{FAC2D053-A821-4512-A000-A4F065DD0370}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8409",
+      "DurationMax": "0.8409",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "661106685",
+        "Language": "SFX",
+        "ShortName": "NPC\\Others\\Female_Talk.wav",
+        "Path": "SFX\\NPC\\Others\\Female_Talk_759366AB.wem"
+       }
+      ]
+     },
+     {
+      "Id": "660562971",
+      "Name": "Townsfolk_Male_Talk",
+      "ObjectPath": "\\Events\\NPC\\Townsfolk_Male_Talk",
+      "GUID": "{173B35F4-4D70-4B30-BCE8-196C290A4BD7}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.620907",
+      "DurationMax": "0.620907",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "826850264",
+        "Language": "SFX",
+        "ShortName": "NPC\\Others\\Male_Talk.wav",
+        "Path": "SFX\\NPC\\Others\\Male_Talk_F3A248C6.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2465583816",
+      "Name": "UI_AddToInventory",
+      "ObjectPath": "\\Events\\UI\\UI_AddToInventory",
+      "GUID": "{26ECC4EC-20AE-4716-B317-71FEA4A494CB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.440276",
+      "DurationMax": "0.440276",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "807448876",
+        "Language": "SFX",
+        "ShortName": "AddToInventory.wav",
+        "Path": "SFX\\AddToInventory_C2265F22.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2249769530",
+      "Name": "UI_Click",
+      "ObjectPath": "\\Events\\UI\\UI_Click",
+      "GUID": "{EF644063-BC1F-4F6C-8E0E-382898BBE9E6}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.421613",
+      "DurationMax": "0.421613",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "699738634",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Click.wav",
+        "Path": "SFX\\UI\\UI_Click_1FB2DEFA.wem"
+       }
+      ]
+     },
+     {
+      "Id": "592624029",
+      "Name": "UI_Shuffle",
+      "ObjectPath": "\\Events\\UI\\UI_Shuffle",
+      "GUID": "{AA5E6F68-733D-4D78-B7C6-1185793B186C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.381636",
+      "DurationMax": "0.381636",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "845204464",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Shuffle.wav",
+        "Path": "SFX\\UI\\UI_Shuffle_75AF8CD4.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3210856931",
+      "Name": "UI_Use",
+      "ObjectPath": "\\Events\\UI\\UI_Use",
+      "GUID": "{9522EB43-A22F-4A3B-9511-FF994FAFBB20}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.64836",
+      "DurationMax": "0.64836",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "673739452",
+        "Language": "SFX",
+        "ShortName": "UI_Use.wav",
+        "Path": "SFX\\UI_Use_B6937A5C.wem"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2918011349",
+      "Name": "MasterVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Mix\\MasterVolume",
+      "GUID": "{D942B0FF-0CA8-4989-B273-F14080A9DA08}"
+     },
+     {
+      "Id": "3677180323",
+      "Name": "Health",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Health",
+      "GUID": "{CECD950F-428C-4364-B1C2-53B7DA311FA2}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "717767040",
+      "Name": "CaveReverb_Enabled",
+      "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Enabled",
+      "GUID": "{8A133C79-884E-460F-AC8D-A9C0F138B1C2}",
+      "States": []
+     },
+     {
+      "Id": "2218728873",
+      "Name": "CaveReverb_Disabled",
+      "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Disabled",
+      "GUID": "{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}",
+      "States": []
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
+      "GUID": "{BE7D5BDC-A5D4-40A3-8CF8-F5AF0AEC5F65}",
+      "Switches": [
+       {
+        "Id": "547160665",
+        "Name": "Surface_Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Surface_Grass",
+        "GUID": "{4F711452-7034-44E5-9552-8CE1E40998FD}"
+       },
+       {
+        "Id": "1897702823",
+        "Name": "Surface_Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Surface_Sand",
+        "GUID": "{31DAFF58-1407-4AF1-B1CF-CE9F1B643928}"
+       },
+       {
+        "Id": "1810448540",
+        "Name": "Surface_Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Surface_Stone",
+        "GUID": "{988762A6-8339-406C-8825-47100B7DC40C}"
+       },
+       {
+        "Id": "3248230778",
+        "Name": "Surface_Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Surface_Water",
+        "GUID": "{9CF1C05A-B992-4E89-98DE-CF8C158624E1}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "2982907302",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "GameParameters": [
+     {
+      "Id": "988953028",
+      "Name": "SFXVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Mix\\SFXVolume",
+      "GUID": "{03D99013-F1E5-4D34-AE1E-937B18FA3A0E}"
+     },
+     {
+      "Id": "2346531308",
+      "Name": "MusicVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Mix\\MusicVolume",
+      "GUID": "{A2AE5729-51F4-46A4-8ECD-1CFA9E6A2835}"
+     },
+     {
+      "Id": "2918011349",
+      "Name": "MasterVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Mix\\MasterVolume",
+      "GUID": "{D942B0FF-0CA8-4989-B273-F14080A9DA08}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2213237662",
+      "Name": "Underwater",
+      "ObjectPath": "\\States\\Default Work Unit\\Underwater",
+      "GUID": "{7DF40916-DB31-49EB-9CC6-9111B5E63CDB}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Underwater\\None",
+        "GUID": "{2F62FFBE-041F-46B7-A3B3-6D71D71394AC}"
+       },
+       {
+        "Id": "2294733406",
+        "Name": "Underwater_On",
+        "ObjectPath": "\\States\\Default Work Unit\\Underwater\\Underwater_On",
+        "GUID": "{E9A98091-AD09-4850-9FF8-D7E9581A37DC}"
+       },
+       {
+        "Id": "2802431236",
+        "Name": "Underwater_Off",
+        "ObjectPath": "\\States\\Default Work Unit\\Underwater\\Underwater_Off",
+        "GUID": "{4808DC17-9C21-4882-B563-7C275850E059}"
+       }
+      ]
+     },
+     {
+      "Id": "3092587493",
+      "Name": "Pause",
+      "ObjectPath": "\\States\\Music\\Pause",
+      "GUID": "{5D3C779C-8130-47C3-BFED-1E0641098106}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\Pause\\None",
+        "GUID": "{F12F1341-B1A1-414E-90DF-4D572B9DB180}"
+       },
+       {
+        "Id": "3537680115",
+        "Name": "Pause_On",
+        "ObjectPath": "\\States\\Music\\Pause\\Pause_On",
+        "GUID": "{66FAFFE6-0D55-4278-8DCA-0354883339FD}"
+       },
+       {
+        "Id": "3967028551",
+        "Name": "Pause_Off",
+        "ObjectPath": "\\States\\Music\\Pause\\Pause_Off",
+        "GUID": "{0725D63E-5068-4B78-9CBA-8997F1D1349F}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3991942870",
+    "GUID": "{D4222E0E-1566-4833-A6B1-9FBF434E1880}",
+    "Language": "SFX",
+    "Hash": "4049946828",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
+    "ShortName": "Music",
+    "Path": "Music.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Events\\Music\\Music",
+      "GUID": "{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "2179654399",
+      "Name": "Pause_Menu_Off",
+      "ObjectPath": "\\Events\\Music\\Pause_Menu_Off",
+      "GUID": "{08DFDC1B-8276-411D-A16D-09B36D0FE31D}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "3967028551",
+        "Name": "Pause_Off",
+        "ObjectPath": "\\States\\Music\\Pause\\Pause_Off",
+        "GUID": "{0725D63E-5068-4B78-9CBA-8997F1D1349F}"
+       }
+      ]
+     },
+     {
+      "Id": "3483621035",
+      "Name": "Pause_Menu_On",
+      "ObjectPath": "\\Events\\Music\\Pause_Menu_On",
+      "GUID": "{E41AF1B5-7241-472E-9D34-D46A690B69DC}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "3537680115",
+        "Name": "Pause_On",
+        "ObjectPath": "\\States\\Music\\Pause\\Pause_On",
+        "GUID": "{66FAFFE6-0D55-4278-8DCA-0354883339FD}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3537680115",
+      "Name": "Pause_On",
+      "ObjectPath": "\\States\\Music\\Pause\\Pause_On",
+      "GUID": "{66FAFFE6-0D55-4278-8DCA-0354883339FD}",
+      "States": []
+     },
+     {
+      "Id": "3967028551",
+      "Name": "Pause_Off",
+      "ObjectPath": "\\States\\Music\\Pause\\Pause_Off",
+      "GUID": "{0725D63E-5068-4B78-9CBA-8997F1D1349F}",
+      "States": []
+     }
+    ]
+   }
+  ]
+ }
+}

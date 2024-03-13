@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{21674ACD-93A6-43ED-82E3-4F20BF0D65E6}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{21674ACD-93A6-43ED-82E3-4F20BF0D65E6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SFX" ID="{46CFE9CD-25EC-4858-8B22-82E6DDB661A7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient" ID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" WorkUnitID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NPC" ID="{C4EFA358-483E-47FB-B935-14FAB47E569F}" WorkUnitID="{C4EFA358-483E-47FB-B935-14FAB47E569F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{114EB876-E4D5-49A0-817E-2491D508F8DB}" WorkUnitID="{114EB876-E4D5-49A0-817E-2491D508F8DB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI" ID="{1FA34FF6-CD0F-4DC6-AB38-28DD77A78564}" WorkUnitID="{1FA34FF6-CD0F-4DC6-AB38-28DD77A78564}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Creatures" ID="{8C3546A6-C390-4E36-B46B-CE0C779B5323}" WorkUnitID="{8C3546A6-C390-4E36-B46B-CE0C779B5323}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{D4222E0E-1566-4833-A6B1-9FBF434E1880}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Default Work Unit" ID="{CE89963D-F68C-45BE-B3AD-6191E7AB7B45}" WorkUnitID="{CE89963D-F68C-45BE-B3AD-6191E7AB7B45}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{973EF824-929B-46A2-8D78-81B31C0BDFAC}" WorkUnitID="{973EF824-929B-46A2-8D78-81B31C0BDFAC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

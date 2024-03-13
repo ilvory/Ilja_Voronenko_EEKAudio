@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3F638A92-8741-4AA1-A380-324137B6CA3F}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{3F638A92-8741-4AA1-A380-324137B6CA3F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Footsteps" ID="{BE7D5BDC-A5D4-40A3-8CF8-F5AF0AEC5F65}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Surface_Grass" ID="{4F711452-7034-44E5-9552-8CE1E40998FD}"/>
+						<Switch Name="Surface_Sand" ID="{31DAFF58-1407-4AF1-B1CF-CE9F1B643928}"/>
+						<Switch Name="Surface_Stone" ID="{988762A6-8339-406C-8825-47100B7DC40C}"/>
+						<Switch Name="Surface_Water" ID="{9CF1C05A-B992-4E89-98DE-CF8C158624E1}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="MasterVolume" ID="{D942B0FF-0CA8-4989-B273-F14080A9DA08}"/>
+						<Curve Name="" ID="{01BDC1DF-490C-4C64-98EF-4E16F4657F83}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.199152542372881</XPos>
+									<YPos>0</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

@@ -1,0 +1,100 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Unity\\UOP1_Project\\UOP1_Project_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Unity\\UOP1_Project\\UOP1_Project_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Unity\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Unity\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "2982907302",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "GameParameters": [
+     {
+      "Id": "988953028",
+      "Name": "SFXVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Mix\\SFXVolume",
+      "GUID": "{03D99013-F1E5-4D34-AE1E-937B18FA3A0E}"
+     },
+     {
+      "Id": "2346531308",
+      "Name": "MusicVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Mix\\MusicVolume",
+      "GUID": "{A2AE5729-51F4-46A4-8ECD-1CFA9E6A2835}"
+     },
+     {
+      "Id": "2918011349",
+      "Name": "MasterVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Mix\\MasterVolume",
+      "GUID": "{D942B0FF-0CA8-4989-B273-F14080A9DA08}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2213237662",
+      "Name": "Underwater",
+      "ObjectPath": "\\States\\Default Work Unit\\Underwater",
+      "GUID": "{7DF40916-DB31-49EB-9CC6-9111B5E63CDB}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Underwater\\None",
+        "GUID": "{2F62FFBE-041F-46B7-A3B3-6D71D71394AC}"
+       },
+       {
+        "Id": "2294733406",
+        "Name": "Underwater_On",
+        "ObjectPath": "\\States\\Default Work Unit\\Underwater\\Underwater_On",
+        "GUID": "{E9A98091-AD09-4850-9FF8-D7E9581A37DC}"
+       },
+       {
+        "Id": "2802431236",
+        "Name": "Underwater_Off",
+        "ObjectPath": "\\States\\Default Work Unit\\Underwater\\Underwater_Off",
+        "GUID": "{4808DC17-9C21-4882-B563-7C275850E059}"
+       }
+      ]
+     },
+     {
+      "Id": "3092587493",
+      "Name": "Pause",
+      "ObjectPath": "\\States\\Music\\Pause",
+      "GUID": "{5D3C779C-8130-47C3-BFED-1E0641098106}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\Pause\\None",
+        "GUID": "{F12F1341-B1A1-414E-90DF-4D572B9DB180}"
+       },
+       {
+        "Id": "3537680115",
+        "Name": "Pause_On",
+        "ObjectPath": "\\States\\Music\\Pause\\Pause_On",
+        "GUID": "{66FAFFE6-0D55-4278-8DCA-0354883339FD}"
+       },
+       {
+        "Id": "3967028551",
+        "Name": "Pause_Off",
+        "ObjectPath": "\\States\\Music\\Pause\\Pause_Off",
+        "GUID": "{0725D63E-5068-4B78-9CBA-8997F1D1349F}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

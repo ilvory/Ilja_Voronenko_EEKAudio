@@ -1,0 +1,101 @@
+Event	ID	Name			Wwise Object Path	Notes
+	592624029	UI_Shuffle			\UI\UI_Shuffle	
+	660562971	Townsfolk_Male_Talk			\NPC\Townsfolk_Male_Talk	
+	728646680	Amb_Field_Farms			\Ambient\Amb_Field_Farms	
+	816303795	Player_Grab			\Player\Player_Grab	
+	859052727	Amb_Beach			\Ambient\Amb_Beach	
+	1363577934	Player_Jump_LiftOff			\Player\Player_Jump_LiftOff	
+	1419286180	NPC_Hare_Talk			\NPC\NPC_Hare_Talk	
+	1542330065	Player_Die			\Player\Player_Die	
+	1717767246	NPC_Hare_Song_Long			\NPC\NPC_Hare_Song_Long	
+	1730208058	Player_Footsteps			\Player\Player_Footsteps	
+	1822764980	Critter_Plant_GettingHit			\Creatures\Critter_Plant_GettingHit	
+	1879932703	CaveReverb_Disable			\Ambient\Reverb\CaveReverb_Disable	
+	1940944140	CaveReverb_Enable			\Ambient\Reverb\CaveReverb_Enable	
+	1969612259	Critter_Plant_Attack			\Creatures\Critter_Plant_Attack	
+	1997053204	Amb_Field_Hill			\Ambient\Amb_Field_Hill	
+	2025845440	Play_Torch			\Ambient\Play_Torch	
+	2249769530	UI_Click			\UI\UI_Click	
+	2465583816	UI_AddToInventory			\UI\UI_AddToInventory	
+	2644861617	Amb_Trees			\Ambient\Amb_Trees	
+	2675089675	Player_Talk			\Player\Player_Talk	
+	2824512041	Player_Attack			\Player\Player_Attack	
+	2891098061	Critter_Plant_Idle			\Creatures\Critter_Plant_Idle	
+	2910694179	Critter_Plant_Death			\Creatures\Critter_Plant_Death	
+	2971175702	Townsfolk_Female_Talk			\NPC\Townsfolk_Female_Talk	
+	3050945240	New_Event			\Player\New_Event	
+	3207324726	Amb_Fire			\Ambient\Amb_Fire	
+	3210856931	UI_Use			\UI\UI_Use	
+	3484321931	Player_Heartbeat			\Player\Player_Heartbeat	
+	3635877684	Amb_Ocean			\Ambient\Amb_Ocean	
+	3755979049	Amb_Cave			\Ambient\Amb_Cave	
+	3856109001	Player_Jump_Landing			\Player\Player_Jump_Landing	
+	3945457670	Player_GetHit			\Player\Player_GetHit	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	547160665	Surface_Grass	Footsteps			
+	1810448540	Surface_Stone	Footsteps			
+	1897702823	Surface_Sand	Footsteps			
+	3248230778	Surface_Water	Footsteps			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2918011349	MasterVolume			\Default Work Unit\Mix\MasterVolume	
+	3677180323	Health			\Default Work Unit\Health	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	238013044	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\NPC\Hare\Hare Song\Silence\Wwise Silence	
+	373436862	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Player\Player\Player talking\Silence\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	66371575	amb_field_farms	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambient\amb_field_farms_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\2D Ambient\amb_field_farms		9702064
+	71035135	Surface_Water3	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Surface_Water3_18FEFD43.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Water footsteps\Surface_Water3		91772
+	75400074	amb_ocean	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambient\amb_ocean_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\3D Ambient\Ocean laps\amb_ocean		8379064
+	109010644	Critter_Plant_Death	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Monsters\Critter_Plant_Death_967631A0.wem		\Actor-Mixer Hierarchy\Creatures\Plant Monster\Critter_Plant_Death		105014
+	114488865	Critter_Plant_Attack	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Monsters\Critter_Plant_Attack_68598E18.wem		\Actor-Mixer Hierarchy\Creatures\Plant Monster\Critter_Plant_Attack		83138
+	160736075	Player_Jump_LiftOff	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Jump_LiftOff_5FA59ACE.wem		\Actor-Mixer Hierarchy\Player\Player\Player_Jump_LiftOff		29028
+	170412802	Torch	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambient\amb_torch_637EED9F.wem		\Actor-Mixer Hierarchy\Ambient\3D Ambient\Torch		9491552
+	171170101	amb_beach	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambient\amb_beach_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\2D Ambient\amb_beach		7673464
+	195868259	Hare_Song_Long_4	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\NPC\Hare\Hare_Song_Long_4_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Hare\Hare Song\Hare_Song_Long_4		302068
+	200470266	Surface_Water1	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Surface_Water1_90CD2DEB.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Water footsteps\Surface_Water1		76788
+	201511804	Surface_Grass2	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Surface_Grass2_1ACE00DA.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Grass footsteps\Surface_Grass2		56472
+	206081967	Hare_Talk	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\NPC\Hare\Hare_Talk_806EEA5B.wem		\Actor-Mixer Hierarchy\NPC\Hare\Hare talk\Hare_Talk		173292
+	282874757	Critter_Plant_Idle	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Monsters\Critter_Plant_Idle_7FC5E38F.wem		\Actor-Mixer Hierarchy\Creatures\Plant Monster\Critter_Plant_Idle		493934
+	300382764	Surface_Rocks1	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Surface_Rocks1_5A736827.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Rocks footsteps\Surface_Rocks1		62972
+	328554108	Surface_Sand2	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Surface_Sand2_DBE320F0.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Sand footsteps\Surface_Sand2		41280
+	346616806	Player_Die	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Die_629C049C.wem		\Actor-Mixer Hierarchy\Player\Player\Player_Die		81684
+	355271436	Surface_Rocks2	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Surface_Rocks2_5B6509B5.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Rocks footsteps\Surface_Rocks2		65660
+	365222518	Hare_Song_Long_1	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\NPC\Hare\Hare_Song_Long_1_34F13A34.wem		\Actor-Mixer Hierarchy\NPC\Hare\Hare Song\Hare_Song_Long_1		420052
+	386201823	amb_feild_hills	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambient\amb_feild_hills_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\2D Ambient\amb_feild_hills		13174642
+	416521536	Player_Attack2	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Attack\Player_Attack2_59B0B4BB.wem		\Actor-Mixer Hierarchy\Player\Player\Player attack\Player_Attack2		75044
+	481293795	Surface_Water2	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Surface_Water2_F79E2C53.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Water footsteps\Surface_Water2		78892
+	481717224	amb_cave	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambient\amb_cave_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\3D Ambient\amb_cave		10628164
+	539512773	Surface_Sand1	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Surface_Sand1_A9454982.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Sand footsteps\Surface_Sand1		52028
+	549358111	Player_GetHit2	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_GetHit\Player_GetHit2_9602670A.wem		\Actor-Mixer Hierarchy\Player\Player\Player get hit\Player_GetHit2		50410
+	556581190	Player_Jump_Landing	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Jump_Landing_4A58AB64.wem		\Actor-Mixer Hierarchy\Player\Player\Player_Jump_Landing		16876
+	586604199	Surface_Grass3	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Surface_Grass3_FC2F2D3C.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Grass footsteps\Surface_Grass3		54744
+	619917798	Player_Talk2	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Talk\Player_Talk2_07089254.wem		\Actor-Mixer Hierarchy\Player\Player\Player talking\Player_Talk2		119244
+	661106685	Female_Talk	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\NPC\Others\Female_Talk_759366AB.wem		\Actor-Mixer Hierarchy\NPC\OtherNPC\Female_Talk		148396
+	673739452	UI_Use	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\UI_Use_B6937A5C.wem		\Actor-Mixer Hierarchy\UI\UI\UI_Use		62306
+	677021679	Player_Attack1	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Attack\Player_Attack1_11EA8FF5.wem		\Actor-Mixer Hierarchy\Player\Player\Player attack\Player_Attack1		64556
+	678425717	Hare_Talk2	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\NPC\Hare\Hare_Talk2_9705CEFB.wem		\Actor-Mixer Hierarchy\NPC\Hare\Hare talk\Hare_Talk2		123484
+	699738634	UI_Click	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\UI\UI_Click_1FB2DEFA.wem		\Actor-Mixer Hierarchy\UI\UI\UI_Click		40538
+	762105881	amb_trees	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambient\amb_trees_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\3D Ambient\amb_trees		5733064
+	766390857	Player_Talk1	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Talk\Player_Talk1_DC0F7735.wem		\Actor-Mixer Hierarchy\Player\Player\Player talking\Player_Talk1		149838
+	795462729	Player_Talk3	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Talk\Player_Talk3_4CEC12FC.wem		\Actor-Mixer Hierarchy\Player\Player\Player talking\Player_Talk3		117210
+	798924486	Heartbeat	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Heartbeat_DD96FBC7.wem		\Actor-Mixer Hierarchy\Player\Heartbeat		68502
+	807448876	UI_AddToInventory	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\AddToInventory_C2265F22.wem		\Actor-Mixer Hierarchy\UI\UI\UI_AddToInventory		42332
+	826850264	Male_Talk	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\NPC\Others\Male_Talk_F3A248C6.wem		\Actor-Mixer Hierarchy\NPC\OtherNPC\Male_Talk		109592
+	833775298	Hare_Song_Long_2	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\NPC\Hare\Hare_Song_Long_2_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Hare\Hare Song\Hare_Song_Long_2		284724
+	845204464	UI_Shuffle	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\UI\UI_Shuffle_75AF8CD4.wem		\Actor-Mixer Hierarchy\UI\UI\UI_Shuffle		36702
+	845283789	Critter_Plant_GettingHit	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Monsters\Critter_Plant_GettingHit_99AC4D65.wem		\Actor-Mixer Hierarchy\Creatures\Plant Monster\Critter_Plant_GettingHit		32258
+	861567176	Hare_Song_Long_3	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\NPC\Hare\Hare_Song_Long_3_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Hare\Hare Song\Hare_Song_Long_3		259216
+	886715503	Player_Grab	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_Grab_5E84716F.wem		\Actor-Mixer Hierarchy\Player\Player\Player_Grab		13250
+	894451964	Surface_Rocks3	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Surface_Rocks3_085AE05F.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Rocks footsteps\Surface_Rocks3		69456
+	929474808	Surface_Sand3	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Surface_Sand3_57937917.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Sand footsteps\Surface_Sand3		40244
+	946957299	Player_GetHit1	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Player_GetHit\Player_GetHit1_D690165E.wem		\Actor-Mixer Hierarchy\Player\Player\Player get hit\Player_GetHit1		30278
+	949075928	amb_fire	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambient\amb_fire_10C4C929.wem		\Actor-Mixer Hierarchy\Ambient\3D Ambient\amb_fire		6879664
+	1035565226	Surface_Grass1	D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Surface_Grass1_FBBC7BFE.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Grass footsteps\Surface_Grass1		55620
+

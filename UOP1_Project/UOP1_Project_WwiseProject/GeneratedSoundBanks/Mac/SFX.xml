@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Unity\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="393239870" GUID="{46CFE9CD-25EC-4858-8B22-82E6DDB661A7}" Language="SFX" Hash="2800396083">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2249769530" Name="UI_Click" ObjectPath="\Events\Default Work Unit\UI\UI_Click" GUID="{EF644063-BC1F-4F6C-8E0E-382898BBE9E6}" DurationType="OneShot" DurationMin="0.421613" DurationMax="0.421613">
+					<IncludedMemoryFiles>
+						<File Id="699738634" Language="SFX">
+							<ShortName>UI\UI_Click.wav</ShortName>
+							<Path>SFX\UI\UI_Click_1FB2DEFA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="592624029" Name="UI_Shuffle" ObjectPath="\Events\Default Work Unit\UI\UI_Shuffle" GUID="{AA5E6F68-733D-4D78-B7C6-1185793B186C}" DurationType="OneShot" DurationMin="0.381636" DurationMax="0.381636">
+					<IncludedMemoryFiles>
+						<File Id="845204464" Language="SFX">
+							<ShortName>UI\UI_Shuffle.wav</ShortName>
+							<Path>SFX\UI\UI_Shuffle_75AF8CD4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

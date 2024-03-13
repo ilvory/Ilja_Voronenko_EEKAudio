@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C4EFA358-483E-47FB-B935-14FAB47E569F}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="NPC" ID="{C4EFA358-483E-47FB-B935-14FAB47E569F}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="14"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="NPC_Hare_Song_Long" ID="{363F99B4-0D64-485A-91A4-A72C63EB3F01}">
+					<ChildrenList>
+						<Action Name="" ID="{597ACD5E-3065-49C1-8159-240607398EFE}" ShortID="1039826775">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hare Song" ID="{78E60E89-549B-4886-BD5F-3DECF8C019E2}" WorkUnitID="{6D05B601-F76E-4F0D-B3B6-04A8A57EBE24}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NPC_Hare_Talk" ID="{9A5D6ABE-1784-4657-A209-AEF23199231B}">
+					<ChildrenList>
+						<Action Name="" ID="{D8124CE0-495C-4B64-B5C8-8A67BCA6814C}" ShortID="363325819">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hare talk" ID="{1CF7F4C2-0BB0-4ADC-BF5E-8AB20195230D}" WorkUnitID="{6D05B601-F76E-4F0D-B3B6-04A8A57EBE24}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Townsfolk_Female_Talk" ID="{FAC2D053-A821-4512-A000-A4F065DD0370}">
+					<ChildrenList>
+						<Action Name="" ID="{3D6BFB1E-891D-469D-BF92-ACA72574D3DF}" ShortID="644824624">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Female_Talk" ID="{3F83DF8C-EAB8-4096-BFBD-72962065375B}" WorkUnitID="{6D05B601-F76E-4F0D-B3B6-04A8A57EBE24}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Townsfolk_Male_Talk" ID="{173B35F4-4D70-4B30-BCE8-196C290A4BD7}">
+					<ChildrenList>
+						<Action Name="" ID="{997643F0-613B-44D0-9356-9E4F925F9842}" ShortID="128952213">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Male_Talk" ID="{AB7358BA-BCA3-480A-B831-B07E40121D37}" WorkUnitID="{6D05B601-F76E-4F0D-B3B6-04A8A57EBE24}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
